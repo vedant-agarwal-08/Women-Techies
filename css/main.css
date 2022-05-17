@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Poppins:wght@200;300;400;500;600&display=swap');
+/*Part-1*/
+/*for pseudo elements and i */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:'poppins',sans-serif;
+}
+/*utility classes*/
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-primary{
+    color:#fff;
+    background: #16a083;
+}
+
+.btn-primary:hover{
+    background: #096350;
+    transition: background 0.3s ease-in-out ;
+}
+
+
+/* ########### showcase area styling ########## */
+
+.showcase-container{
+    display: flex;
+    flex-direction: row;
+}
+.word{
+    color:red;
+}
